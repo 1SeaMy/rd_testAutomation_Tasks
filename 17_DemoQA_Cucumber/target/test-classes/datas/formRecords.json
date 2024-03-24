@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "fatma",
+    "lastName": "gül",
+    "email": "fatma@can.com",
+    "age": "36",
+    "salary": "50000",
+    "department": "Ops"
+  },
+  {
+    "firstName": "mehmet",
+    "lastName": "sarı",
+    "email": "mehmet@can.com",
+    "age": "36",
+    "salary": "45000",
+    "department": "QA"
+  }
+]
