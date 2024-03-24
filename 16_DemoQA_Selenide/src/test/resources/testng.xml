@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoQA Suite">
+    <test name="DemoQA Test">
+        <groups>
+            <run>
+                <include name="First"/>
+                <include name="ButtonsPage"/>
+                <include name="WebTablesPage"/>
+                <include name="Last"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.BaseTests"/>
+            <class name="tests.ButtonsPageTests"/>
+            <class name="tests.WebTablesPageTests"/>
+        </classes>
+    </test>
+</suite>

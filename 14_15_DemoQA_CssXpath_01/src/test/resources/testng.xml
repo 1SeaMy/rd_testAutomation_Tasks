@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoQA Suite">
+    <test name="DemoQA Test">
+        <groups>
+            <run>
+                <include name="ButtonsCSS"/>
+                <include name="WebtablesCSS"/>
+                <include name="ButtonsXPATH"/>
+                <include name="WebtablesXPATH"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.rd.tests.DemoQA_buttons_CSS"/>
+            <class name="com.rd.tests.DemoQA_webtables_CSS"/>
+            <class name="com.rd.tests.DemoQA_buttons_XPATH"/>
+            <class name="com.rd.tests.DemoQA_webtables_XPATH"/>
+        </classes>
+    </test>
+</suite>
+
+
+
